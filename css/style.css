@@ -1,0 +1,224 @@
+/*global*/
+body{
+	margin: 0px;
+
+}
+.container{
+	margin: 0 auto;
+	width: 85%;
+	padding: 10px;
+	overflow: hidden;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+span{
+	    font-size: 18px;
+	    color: #5a5151;
+}
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	color: #635b5b;
+	padding: 23px 0;
+}
+p{
+	
+	padding-bottom: 27px;
+	font-size: 19px;
+	color: #2d2727;
+	font-family: 'Baskervville', serif;
+
+}
+img{
+	width: 100%;
+}
+img:hover{
+	opacity: .7;
+}
+a {
+	color: #2d2727;
+	text-decoration: none;
+	transition: .5s;
+	text-align: justify;
+}
+a:hover {
+	opacity: .6;
+}
+/*
+==============================
+	    header Start
+==============================
+*/
+header{
+    padding: 80px 10px 30px 15px;
+}
+.logo{
+	float: left;
+	width: 20%;
+}
+.logo img{
+	width: 120px;
+	float: left;
+}
+.navigation{
+  float: right;
+  width: 80%;
+  }
+.navigation ul{
+   
+    display: flex;
+    text-align: end;
+    justify-content: flex-end;
+}
+.navigation ul li{
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0px;
+}
+.navigation ul li a{
+    justify-content: flex-end;
+    text-decoration: none;
+    color: #807979;
+    padding-left: 101px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+/*
+==============================
+	    header End
+==============================
+*/
+
+
+/*
+==============================
+	    Banner Start
+==============================
+*/
+.banner{}
+.banner img{
+ width: 100%;
+}
+
+/*
+==============================
+	    Banner End
+==============================
+*/
+
+
+/*
+==============================
+	    Article Start
+==============================
+*/
+.article-sec{
+    padding: 50px 0px 10px;
+}
+.article-without-image{
+	
+padding: 0px 80px;
+	
+margin-bottom: 60px;
+}
+.article-sec{}
+.article-without-image span{}
+.article-without-image h1{
+
+}
+.article-without-image p{}
+.article-without-image a{
+
+}
+.article-post{
+    padding: 0 50px;
+}
+.article-with-image{
+    float: left;
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.article-with-image img{
+    margin-bottom: 50px;
+    width: 100%;
+}
+.article-with-image h1{}
+.article-with-image p{}
+
+.post-sec article{
+    padding: 0 60px;
+    float: left;
+    width: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.post-sec article img{
+    margin-bottom: 20px;
+}
+.post-sec article h1{
+    font-size: 20px;
+}
+.post-sec article p{}
+/*
+==============================
+	    Article End
+==============================
+*/
+
+/*
+==============================
+	    Footer Start
+==============================
+*/
+footer{
+
+padding: 30px 80;
+
+background: #dedede;
+}
+.term-privacy{
+    float: left;
+    width: 50%;
+}
+.term-privacy ul{
+    display: flex;
+}
+.term-privacy ul li{
+    list-style: none;
+}
+.term-privacy ul li a{
+    text-decoration: none;
+    padding-right: 20px;
+    color: #0e0e0e;
+}
+.term-privacy ul li a:hover{
+	opacity: 0.5;
+}
+.social{
+    float: left;
+    width: 50%;
+}
+.social ul{
+    float: right;
+}
+.social ul li{
+    display: inline-block;
+    padding: 2px 10;
+    color: #312e2e;
+}
+
+.social ul li a{
+    color: #312E30;
+
+}
+.social ul li a:hover{
+	opacity: 0.5;
+}
+/*
+==============================
+	    Footer End
+==============================
+*/
